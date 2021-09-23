@@ -5,11 +5,11 @@ export function createFakeUserList() {
   return [
     {
       userId: '1',
-      username: 'vben',
-      realName: 'Vben Admin',
-      avatar: 'https://q1.qlogo.cn/g?b=qq&nk=190848757&s=640',
+      username: 'market',
+      realName: 'Hello Market',
+      avatar: 'https://image.flaticon.com/icons/png/512/2159/2159955.png',
       desc: 'manager',
-      password: '123456',
+      password: '88888888',
       token: 'fakeToken1',
       homePath: '/dashboard/analysis',
       roles: [
