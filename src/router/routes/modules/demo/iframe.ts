@@ -35,11 +35,11 @@ const iframe: AppRouteModule = {
       },
     },
     {
-      path: 'https://vvbin.cn/doc-next/',
+      path: 'https://www.etf.com/etfanalytics/etf-finder',
       name: 'DocExternal',
       component: IFrame,
       meta: {
-        title: t('routes.demo.iframe.docExternal'),
+        title: t('routes.demo.iframe.etfcom'),
       },
     },
   ],
