@@ -1,4 +1,19 @@
 export default {
+  stock: {
+    title: '台股',
+    stock: '美股',
+    dxy: '美元指(新興市場喜弱)',
+    shippingvolume: '航運(三成以下買點)',
+    shipping: '航運',
+    steel: '鋼鐵',
+    plastics: '塑膠',
+    health: '醫療',
+    electronics: '電子',
+    balanced: 'balanced',
+    global: 'global',
+    trust: '投信',
+    etf: 'ETF',
+  },
   charts: {
     baiduMap: '百度地图',
     aMap: '高德地图',
