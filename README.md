@@ -11,6 +11,31 @@
 
 Vue Vben Admin is a free and open source middle and back-end template. Using the latest `vue3`, `vite2`, `TypeScript` and other mainstream technology development, the out-of-the-box middle and back-end front-end solutions can also be used for learning reference.
 
+## Build
+
+驗證 Build 後所建立的檔案
+
+npm serve
+安裝 serve 套件 於 Terminal 中輸入 `npm install -g serve`
+
+驗證 Build 後所建立的檔案
+於 Terminal 中輸入 `serve -s dist`
+
+## Deploy
+
+build\constant.ts
+
+```js
+export const GLOB_CONFIG_FILE_NAME = "app.config.js"; // _app.config.js
+```
+
+## Tools
+
+.husky [what-is-commitlint](https://github.com/conventional-changelog/commitlint/#what-is-commitlint)
+remove .husky pre-commit
+[flaticon](https://www.flaticon.com/)
+
+
 ## Feature
 
 - **State of The Art Development**：Use front-end front-end technology development such as Vue3/vite2
