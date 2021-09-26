@@ -15,26 +15,32 @@ Vue Vben Admin is a free and open source middle and back-end template. Using the
 
 驗證 Build 後所建立的檔案
 
-npm serve
-安裝 serve 套件 於 Terminal 中輸入 `npm install -g serve`
+npm serve 安裝 serve 套件 於 Terminal 中輸入 `npm install -g serve`
 
-驗證 Build 後所建立的檔案
-於 Terminal 中輸入 `serve -s dist`
+驗證 Build 後所建立的檔案於 Terminal 中輸入 `serve -s dist`
 
 ## Deploy
 
 build\constant.ts
 
 ```js
-export const GLOB_CONFIG_FILE_NAME = "app.config.js"; // _app.config.js
+export const GLOB_CONFIG_FILE_NAME = 'app.config.js'; // _app.config.js
 ```
+
+src\views\sys\error-log\index.vue
+
+```js
+// import { fireErrorApi } from '/@/api/demo/error';
+async function fireAjaxError() {
+  // await fireErrorApi();
+}
+```
+
+porkbun.com GitHub Pages > Custom domain
 
 ## Tools
 
-.husky [what-is-commitlint](https://github.com/conventional-changelog/commitlint/#what-is-commitlint)
-remove .husky pre-commit
-[flaticon](https://www.flaticon.com/)
-
+.husky [what-is-commitlint](https://github.com/conventional-changelog/commitlint/#what-is-commitlint) remove .husky pre-commit [flaticon](https://www.flaticon.com/)
 
 ## Feature
 
