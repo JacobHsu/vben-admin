@@ -15,6 +15,15 @@ const system: AppRouteModule = {
   },
   children: [
     {
+      path: 'tradingview',
+      name: 'tradingview',
+      component: IFrame,
+      meta: {
+        frameSrc: 'https://jacobhsu.github.io/stock-klinechart/',
+        title: t('routes.demo.stock.tradingview'),
+      },
+    },
+    {
       path: 'global',
       name: 'global',
       component: IFrame,

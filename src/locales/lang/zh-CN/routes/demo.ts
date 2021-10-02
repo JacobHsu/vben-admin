@@ -13,6 +13,7 @@ export default {
     global: 'global',
     trust: '投信',
     etf: 'ETF',
+    tradingview: 'Tradingview',
   },
   charts: {
     baiduMap: '百度地图',
