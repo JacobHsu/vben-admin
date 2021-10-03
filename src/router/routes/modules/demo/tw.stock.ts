@@ -24,6 +24,15 @@ const system: AppRouteModule = {
       },
     },
     {
+      path: 'kospi',
+      name: 'KOSPI',
+      component: IFrame,
+      meta: {
+        frameSrc: 'https://www.cnyes.com/global/astock/html5chart.aspx?area=KR&code=KOSPI',
+        title: t('routes.demo.stock.kospi'),
+      },
+    },
+    {
       path: 'us-dollar-index',
       name: 'dxy',
       component: IFrame,
