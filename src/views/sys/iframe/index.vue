@@ -1,6 +1,6 @@
 <template>
   <div :class="prefixCls" :style="getWrapStyle">
-    <Spin :spinning="loading" size="large" :style="getWrapStyle">
+    <Spin :spinning="loading" size="large" tip="Url Loading..." :style="getWrapStyle" >
       <iframe
         :src="frameSrc"
         :class="`${prefixCls}__main`"
@@ -53,6 +53,9 @@
   function hideLoading() {
     loading.value = false;
     calcHeight();
+  }
+  function indicator() {
+    return `<a-icon type="loading" style="font-size: 24px" spin />`;
   }
 </script>
 <style lang="less" scoped>
