@@ -14,6 +14,7 @@ export default {
     trust: '投信',
     etf: 'ETF',
     tradingview: 'Tradingview',
+    studies: 'Studies',
     kospi: 'KOSPI',
   },
   charts: {

@@ -19,8 +19,17 @@ const system: AppRouteModule = {
       name: 'tradingview',
       component: IFrame,
       meta: {
-        frameSrc: 'https://jacobhsu.github.io/stock-klinechart/',
+        frameSrc: 'https://jacobhsu.github.io/vue-tradingview-widget/',
         title: t('routes.demo.stock.tradingview'),
+      },
+    },
+    {
+      path: 'studies',
+      name: 'studies',
+      component: IFrame,
+      meta: {
+        frameSrc: 'https://jacobhsu.github.io/stock-klinechart/',
+        title: t('routes.demo.stock.studies'),
       },
     },
     {
