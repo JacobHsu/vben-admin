@@ -52,6 +52,16 @@ const system: AppRouteModule = {
         title: t('routes.demo.stock.balanced'),
       },
     },
+    {
+      path: 'ark',
+      name: 'ark',
+      component: IFrame,
+      meta: {
+        frameSrc:
+          'https://docs.google.com/spreadsheets/d/e/2PACX-1vR6c1SvfY7lfJEI-Aw6M7G_w2dVCZlyhGaFkzWBqYjdhaprSzuIqC4za97hXTw4ouqQyDckBOp38NHt/pubhtml?gid=1960768263&single=true',
+        title: t('routes.demo.stock.ark'),
+      },
+    },
   ],
 };
 

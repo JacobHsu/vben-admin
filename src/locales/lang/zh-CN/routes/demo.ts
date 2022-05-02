@@ -16,6 +16,7 @@ export default {
     tradingview: 'Tradingview',
     studies: 'Studies',
     kospi: 'KOSPI',
+    ark: 'ARK',
   },
   charts: {
     baiduMap: '百度地图',
