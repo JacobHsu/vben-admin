@@ -10,7 +10,6 @@ packages:
   - packages/business/*
   - apps/*
   - scripts/*
-  - playground
 
 overrides:
   '@ast-grep/napi': 'catalog:'
