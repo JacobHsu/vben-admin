@@ -9,14 +9,6 @@
       "path": "apps/web-antd"
     },
     {
-      "name": "@vben/web-antdv-next",
-      "path": "apps/web-antdv-next"
-    },
-    {
-      "name": "@vben/web-tdesign",
-      "path": "apps/web-tdesign"
-    },
-    {
       "name": "@vben/docs",
       "path": "docs"
     },
