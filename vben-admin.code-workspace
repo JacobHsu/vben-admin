@@ -13,14 +13,6 @@
       "path": "apps/web-antdv-next"
     },
     {
-      "name": "@vben/web-ele",
-      "path": "apps/web-ele"
-    },
-    {
-      "name": "@vben/web-naive",
-      "path": "apps/web-naive"
-    },
-    {
       "name": "@vben/web-tdesign",
       "path": "apps/web-tdesign"
     },
