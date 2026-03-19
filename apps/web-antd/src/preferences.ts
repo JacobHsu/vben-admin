@@ -15,6 +15,8 @@ export const overridesPreferences = defineOverridesPreferences({
   app: {
     // 預設頭像：放在 overrides 才能蓋過 localStorage 快取
     defaultAvatar: '/maneki-neko.png',
+    // 登入後預設首頁
+    defaultHomePath: '/demos',
     // 預設語系：強制使用繁體中文
     locale: 'zh-TW',
     name: import.meta.env.VITE_APP_TITLE,

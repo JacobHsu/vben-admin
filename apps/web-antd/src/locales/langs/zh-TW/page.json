@@ -11,5 +11,11 @@
     "title": "概覽",
     "analytics": "分析頁",
     "workspace": "工作台"
+  },
+  "crypto": {
+    "title": "加密貨幣"
+  },
+  "stock": {
+    "title": "美股"
   }
 }

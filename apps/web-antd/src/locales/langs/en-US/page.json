@@ -11,5 +11,11 @@
     "title": "Dashboard",
     "analytics": "Analytics",
     "workspace": "Workspace"
+  },
+  "crypto": {
+    "title": "Crypto"
+  },
+  "stock": {
+    "title": "US Stock"
   }
 }
