@@ -14,8 +14,8 @@ import {
 import { preferences } from '@vben/preferences';
 
 import antdEnLocale from 'ant-design-vue/es/locale/en_US';
-import antdZhTwLocale from 'ant-design-vue/es/locale/zh_TW';
 import antdDefaultLocale from 'ant-design-vue/es/locale/zh_CN';
+import antdZhTwLocale from 'ant-design-vue/es/locale/zh_TW';
 import dayjs from 'dayjs';
 
 const antdLocale = ref<Locale>(antdDefaultLocale);
