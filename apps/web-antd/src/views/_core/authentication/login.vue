@@ -67,7 +67,10 @@ const formSchema = computed((): VbenFormSchema[] => {
       },
       fieldName: 'username',
       label: $t('authentication.username'),
-      rules: z.string().min(1, { message: $t('authentication.usernameTip') }),
+      rules: z
+        .string()
+        .min(1, { message: $t('authentication.usernameTip') })
+        .default('admin'),
     },
     {
       component: 'VbenInputPassword',
@@ -76,7 +79,10 @@ const formSchema = computed((): VbenFormSchema[] => {
       },
       fieldName: 'password',
       label: $t('authentication.password'),
-      rules: z.string().min(1, { message: $t('authentication.passwordTip') }),
+      rules: z
+        .string()
+        .min(1, { message: $t('authentication.passwordTip') })
+        .default('123456'),
     },
     {
       component: markRaw(SliderCaptcha),
