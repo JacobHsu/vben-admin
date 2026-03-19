@@ -8,6 +8,7 @@ import { defineOverridesPreferences } from '@vben/preferences';
 export const overridesPreferences = defineOverridesPreferences({
   // overrides
   app: {
+    locale: 'zh-TW',
     name: import.meta.env.VITE_APP_TITLE,
   },
 });
