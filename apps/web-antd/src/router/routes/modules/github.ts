@@ -15,7 +15,7 @@ const routes: RouteRecordRaw[] = [
     path: '/source',
     children: [
       {
-        name: 'OpenStock',
+        name: 'GithubOpenStock',
         path: '/vben-admin/openstock',
         component: IFrameView,
         meta: {

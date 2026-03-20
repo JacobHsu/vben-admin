@@ -54,8 +54,7 @@ function setupAccessGuard(router: Router) {
     if (coreRouteNames.includes(to.name as string)) {
       if (to.path === LOGIN_PATH && accessStore.accessToken) {
         return decodeURIComponent(
-          (to.query?.redirect as string) ||
-            preferences.app.defaultHomePath,
+          (to.query?.redirect as string) || preferences.app.defaultHomePath,
         );
       }
       return true;

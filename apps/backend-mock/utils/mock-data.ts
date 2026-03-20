@@ -394,9 +394,6 @@ export function getMenuIds(menus: any[]) {
   return ids;
 }
 
-/**
- * 时区选项
- */
 export const TIME_ZONE_OPTIONS: TimezoneOption[] = [
   {
     offset: -5,
