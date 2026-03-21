@@ -11,7 +11,7 @@ const routes: RouteRecordRaw[] = [
       order: 1000,
       title: $t('source.title'),
     },
-    name: 'Source ',
+    name: 'Source',
     path: '/source',
     children: [
       {

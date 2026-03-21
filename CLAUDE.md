@@ -6,24 +6,24 @@ Modern Vue 3 admin dashboard. Pnpm monorepo managed by Turborepo.
 
 - **Main app**: `apps/web-antd` (Ant Design Vue)
 - **Mock server**: `apps/backend-mock` (Nitro/H3, port 5320)
-- **Shared packages**: `packages/` (effects, @vben/*, @vben-core/*)
+- **Shared packages**: `packages/` (effects, @vben/_, @vben-core/_)
 - **Internal tooling**: `internal/` (vite-config, tsconfig, lint-configs)
 
 ## Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Framework | Vue 3.5 + Composition API (`<script setup>`) |
-| Build | Vite 8 (config via `@vben/vite-config`) |
-| Language | TypeScript 5.9 (strict mode) |
-| UI | Ant Design Vue 4 + Tailwind CSS 4 |
-| State | Pinia 3 + pinia-plugin-persistedstate |
-| Router | Vue Router 5 |
-| HTTP | Axios (wrapped in `@vben/request`) |
-| Forms | VeeValidate + Zod |
-| i18n | vue-i18n 11 |
-| Testing | Vitest (unit) + Playwright (e2e) |
-| Package manager | pnpm (only — never use npm or yarn) |
+| Layer           | Technology                                   |
+| --------------- | -------------------------------------------- |
+| Framework       | Vue 3.5 + Composition API (`<script setup>`) |
+| Build           | Vite 8 (config via `@vben/vite-config`)      |
+| Language        | TypeScript 5.9 (strict mode)                 |
+| UI              | Ant Design Vue 4 + Tailwind CSS 4            |
+| State           | Pinia 3 + pinia-plugin-persistedstate        |
+| Router          | Vue Router 5                                 |
+| HTTP            | Axios (wrapped in `@vben/request`)           |
+| Forms           | VeeValidate + Zod                            |
+| i18n            | vue-i18n 11                                  |
+| Testing         | Vitest (unit) + Playwright (e2e)             |
+| Package manager | pnpm (only — never use npm or yarn)          |
 
 ## Commands
 
