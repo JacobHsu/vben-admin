@@ -2,7 +2,7 @@
 import type { VbenFormSchema } from '@vben/common-ui';
 import type { BasicOption } from '@vben/types';
 
-import { computed, markRaw } from 'vue';
+import { computed, markRaw, onMounted, ref } from 'vue';
 
 import { AuthenticationLogin, SliderCaptcha, z } from '@vben/common-ui';
 import { $t } from '@vben/locales';
@@ -12,6 +12,7 @@ import { useAuthStore } from '#/store';
 defineOptions({ name: 'Login' });
 
 const authStore = useAuthStore();
+const loginRef = ref<InstanceType<typeof AuthenticationLogin>>();
 
 const MOCK_USER_OPTIONS: BasicOption[] = [
   {
@@ -25,7 +26,6 @@ const formSchema = computed((): VbenFormSchema[] => {
     {
       component: 'VbenSelect',
       componentProps: {
-        defaultValue: 'admin',
         options: MOCK_USER_OPTIONS,
         placeholder: $t('authentication.selectAccount'),
       },
@@ -86,10 +86,19 @@ const formSchema = computed((): VbenFormSchema[] => {
     },
   ];
 });
+
+onMounted(() => {
+  loginRef.value?.getFormApi()?.setValues({
+    selectAccount: 'admin',
+    username: 'admin',
+    password: '123456',
+  });
+});
 </script>
 
 <template>
   <AuthenticationLogin
+    ref="loginRef"
     :form-schema="formSchema"
     :loading="authStore.loginLoading"
     @submit="authStore.authLogin"
