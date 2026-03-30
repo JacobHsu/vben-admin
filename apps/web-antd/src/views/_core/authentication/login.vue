@@ -14,18 +14,10 @@ defineOptions({ name: 'Login' });
 const authStore = useAuthStore();
 
 const MOCK_USER_OPTIONS: BasicOption[] = [
-  // {
-  //   label: 'Super',
-  //   value: 'jacob',
-  // },
   {
     label: 'Admin',
     value: 'admin',
   },
-  // {
-  //   label: 'User',
-  //   value: 'jack',
-  // },
 ];
 
 const formSchema = computed((): VbenFormSchema[] => {
@@ -33,6 +25,7 @@ const formSchema = computed((): VbenFormSchema[] => {
     {
       component: 'VbenSelect',
       componentProps: {
+        defaultValue: 'admin',
         options: MOCK_USER_OPTIONS,
         placeholder: $t('authentication.selectAccount'),
       },
