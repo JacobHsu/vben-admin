@@ -85,25 +85,13 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
-        name: 'shipping',
-        path: '/demos/outside/iframe/shipping',
+        name: 'goodinfo-xd-xr',
+        path: '/demos/outside/iframe/goodinfo-xd-xr',
         component: IFrameView,
         meta: {
-          icon: 'devicon:googlecloud',
-          iframeSrc:
-            'https://docs.google.com/spreadsheets/d/e/2PACX-1vQyuk30N4qW79BNOpBJrJYXuxc80L8Wsraj4JALpVlcg947Od4Yo1NJhYZTOkRMZxTbQOSIWKvuaZEs/pubhtml?gid=0&single=true',
-          title: 'shipping',
-        },
-      },
-      {
-        name: 'twse',
-        path: '/demos/outside/iframe/twse',
-        component: IFrameView,
-        meta: {
-          icon: 'devicon:googlecloud',
-          iframeSrc:
-            'https://docs.google.com/spreadsheets/d/e/2PACX-1vTN9WgNr0blAuxt4eHenoVe7ea5gSSapy0JnNWQ1ymkTczwbvGO0xKgO51ouw6_pdoAT-cHR8CD6MuQ/pubhtml?gid=0&single=true',
-          title: ' TWSE',
+          icon: 'lucide:percent',
+          iframeSrc: 'https://jacobhsu.github.io/goodinfo-xd-xr/',
+          title: 'Ex-Dividend',
         },
       },
       {
@@ -124,6 +112,17 @@ const routes: RouteRecordRaw[] = [
           icon: 'lucide:history',
           iframeSrc: 'https://stock-replay.vercel.app/',
           title: 'stockreplay',
+        },
+      },
+      {
+        name: 'twse',
+        path: '/demos/outside/iframe/twse',
+        component: IFrameView,
+        meta: {
+          icon: 'devicon:googlecloud',
+          iframeSrc:
+            'https://docs.google.com/spreadsheets/d/e/2PACX-1vTN9WgNr0blAuxt4eHenoVe7ea5gSSapy0JnNWQ1ymkTczwbvGO0xKgO51ouw6_pdoAT-cHR8CD6MuQ/pubhtml?gid=0&single=true',
+          title: ' TWSE',
         },
       },
     ],
