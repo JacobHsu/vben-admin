@@ -56,6 +56,16 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
+        name: 'earnings',
+        path: '/demos/outside/iframe/earnings',
+        component: IFrameView,
+        meta: {
+          icon: 'mdi:currency-usd',
+          iframeSrc: 'https://nextjs-earnings.vercel.app/earnings',
+          title: 'Earnings',
+        },
+      },
+      {
         name: 'rockflow',
         path: '/demos/outside/iframe/rockflow',
         component: IFrameView,
