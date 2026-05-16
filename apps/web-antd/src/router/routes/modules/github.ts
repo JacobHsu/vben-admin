@@ -44,6 +44,46 @@ const routes: RouteRecordRaw[] = [
           title: 'StockReplay',
         },
       },
+      {
+        name: 'StockWorldMap',
+        path: '/vben-admin/stock-world-map',
+        component: IFrameView,
+        meta: {
+          icon: 'mdi:github',
+          link: 'https://github.com/JacobHsu/stock-world-map',
+          title: 'Stock World Map',
+        },
+      },
+      {
+        name: 'GoodinfoDividend',
+        path: '/vben-admin/goodinfo-dividend',
+        component: IFrameView,
+        meta: {
+          icon: 'mdi:github',
+          link: 'https://github.com/JacobHsu/goodinfo-dividend',
+          title: 'Goodinfo Dividend',
+        },
+      },
+      {
+        name: 'GoodinfoXdXr',
+        path: '/vben-admin/goodinfo-xd-xr',
+        component: IFrameView,
+        meta: {
+          icon: 'mdi:github',
+          link: 'https://github.com/JacobHsu/goodinfo-xd-xr',
+          title: 'Goodinfo XD XR',
+        },
+      },
+      {
+        name: 'TwstockHeatmap',
+        path: '/vben-admin/twstock-heatmap',
+        component: IFrameView,
+        meta: {
+          icon: 'mdi:github',
+          link: 'https://github.com/JacobHsu/twstock-heatmap',
+          title: 'Twstock Heatmap',
+        },
+      },
     ],
   },
 ];
